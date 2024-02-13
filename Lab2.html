@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>INST377 - Lab2 - Jason Rahimi</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            .submit {
+                transition-duration: 0.5s;
+                margin-left: 100px;
+            }
+            .submit:hover {
+                background-color: blue;
+                color: red;
+            }
+            .text {
+                margin-left: 100px;
+                font-size: 24pt;
+            }
+        </style>
+    </head>
+    <body style="background-color:gray">
+        <h1>Birthday Form</h1>
+        <form name="BirthdayForm" method="get" action="Lab2Part2.html">
+            <div class="text">
+            <label for="month">Month: </label>
+            <input type="text" id="month" required>
+            <br>
+            <label for="day">Day: </label>
+            <input type="text" id="day" required>
+            <br>
+            </div>
+            <div class="submit">
+            <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
