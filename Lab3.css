@@ -1,0 +1,71 @@
+body {
+    background-color: skyblue;
+    font-family: "Arial";
+}
+
+.bar {
+    text-align: center;
+    color:aqua;
+    width: 100%;
+    background-color: darkgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+#navigation {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#navigation li {
+    display: inline;
+    position: relative;
+    margin: 10px;
+}
+
+#navigation li:hover {
+    transition-duration: 0.5s;
+    background-color: red;
+    color: gray;
+}
+
+a {
+    color: inherit;
+}
+
+#name:hover {
+    width: 25%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.choice {
+    background-color: aquamarine;
+    width: 74%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+.rules {
+    background-color: turquoise;
+    width: 22%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+
+.rules:hover {
+    transition-duration: 0.5s;
+    background-color: aqua;
+}
