@@ -28,7 +28,7 @@ body {
 
 #navigation li:hover {
     transition-duration: 0.5s;
-    background-color: red;
+    background-color: lightgreen;
     color: gray;
 }
 
